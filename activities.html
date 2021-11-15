@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The F2E Week01</title>
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+        <h1 class="logo">
+          <a href="#">
+            <img src="images/logo.png" width="40" height="40" alt="Travel Taiwan Logo">
+          </a>
+          <a href="#">Travel Taiwan</a>
+        </h1>
+      <ul class="menu">
+        <li><a href="index.html">首頁</a></li>
+        <li><a href="attractions.html">景點導覽</a></li>
+        <li><a class="active" href="activities.html">觀光活動</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Swiper -->
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="images/unsplash_UWQP2mh5YJI.jpg" alt="Slide 1 png">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/unsplash_eOpewngf68w.jpg" alt="Slide 2 png">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/unsplash_Yizrl9N_eDA.jpg" alt="Slide 3 png">
+      </div>
+      <div class="swiper-slide">
+        <img src="images/unsplash_JsuBKjHGDMM.jpg" alt="Slide 4 png">
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="title">
+      <h2>Welcome to Travel Taiwan</h2>
+      <form>
+        <select class="sort" name="sort" id="sort">
+          <option value="類別">類別</option>
+          <option value="所有類別">所有類別</option>
+          <option value="年度活動">年度活動</option>
+          <option value="藝文活動">藝文活動</option>
+          <option value="節慶活動">節慶活動</option>
+          <option value="其他">其他</option>
+        </select>
+        <select class="city" name="city" id="city">
+          <option value="所有城市">所有城市</option>
+          <option value="臺北市">臺北市</option>
+          <option value="新北市">新北市</option>
+          <option value="桃園市">桃園市</option>
+          <option value="臺中市">臺中市</option>
+          <option value="臺南市">臺南市</option>
+          <option value="高雄市">高雄市</option>
+          <option value="基隆市">基隆市</option>
+          <option value="新竹市">新竹市</option>
+          <option value="新竹縣">新竹縣</option>
+          <option value="苗栗縣">苗栗縣</option>
+          <option value="彰化縣">彰化縣</option>
+          <option value="南投縣">南投縣</option>
+          <option value="雲林縣">雲林縣</option>
+          <option value="嘉義縣">嘉義縣</option>
+          <option value="嘉義市">嘉義市</option>
+          <option value="屏東縣">屏東縣</option>
+          <option value="宜蘭縣">宜蘭縣</option>
+          <option value="花蓮縣">花蓮縣</option>
+          <option value="臺東縣">臺東縣</option>
+          <option value="金門縣">金門縣</option>
+          <option value="澎湖縣">澎湖縣</option>
+          <option value="連江縣">連江縣</option>
+        </select>
+        <button type="submit" class="btn">
+          <i class="fas fa-search"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="popular">
+      <h2>熱門活動</h2>
+      <p>台灣的各個美景，都美不勝收。 <br> 等你一同來發現這座寶島的奧妙！</p>
+      <ul class="popular-list">
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>阿里山日出</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+        <li>
+          <img src="images/unsplash_78A265wPiO4.jpg" alt="">
+          <div class="spot">
+            <h3>阿里山日出</h3>
+            <div class="time">
+              <img src="images/bx_bx-time.png" alt="time">
+              <span>全天候開放</span>
+            </div>
+          </div>
+          <div class="spot-mark">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>臺東縣951綠島鄉</span>
+          </div>
+          <a type="button" class="btn" href="#">了解更多</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="page">
+    <ul>
+      <li><a class="page-active" href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a href="#">3</a></li>
+      <li><a href="#">4</a></li>
+    </ul>
+  </div>
+
+  <div class="top">
+    <a href="#">
+      <i class="fas fa-caret-up"></i>
+    </a>
+  </div>
+
+  <div class="footer">
+    <p>CopyRight :  Travel Taiwan    Design By :  Tracy</p>
+    <p>TDX、F2E活動:切版練習 Code By : Gee Hsu</p>
+  </div>
+
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
